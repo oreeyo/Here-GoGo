@@ -1,0 +1,16 @@
+.recommended-places {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.places {
+  display: flex;
+  justify-content: space-between;
+}
+
+.place {
+  width: 30%;
+  padding: 10px;
+  background-color: #ddd;
+  text-align: center;
+}

@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  color: rgb(231, 83, 83);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+}

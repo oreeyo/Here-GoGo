@@ -1,0 +1,9 @@
+.membership-banner {
+  padding: 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.membership-banner button {
+  margin-top: 10px;
+}

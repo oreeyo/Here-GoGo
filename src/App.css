@@ -1,0 +1,13 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header,
+.search-bar,
+.event-section,
+.popular-destinations,
+.membership-banner,
+.recommended-places {
+  margin-bottom: 20px;
+}

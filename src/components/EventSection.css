@@ -1,0 +1,16 @@
+.event-section {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.events {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event {
+  width: 30%;
+  padding: 10px;
+  background-color: #ddd;
+  text-align: center;
+}

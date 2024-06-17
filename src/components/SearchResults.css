@@ -1,0 +1,39 @@
+.search-results {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.results-header {
+  margin-bottom: 20px;
+}
+
+.results-content {
+  display: flex;
+}
+
+.filter-sidebar {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.results-list {
+  width: 80%;
+}
+
+.result-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.result-item img {
+  width: 150px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.result-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

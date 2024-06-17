@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es2021",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["jest", "node"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -15,12 +16,19 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "noEmit": false,
+    "noImplicitAny": true,
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"]
     },
     "outDir": "./dist"
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "node_modules/ts-jest/globals.d.ts",
+    "node_modules/ts-jest/globals.d.ts",
+    "node_modules/ts-jest/globals.d.ts",
+    "node_modules/ts-jest/globals.d.ts"
+  ],
   "exclude": ["node_modules"]
 }
